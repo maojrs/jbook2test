@@ -7,7 +7,7 @@ project:
     - something-else
   id: 42fffb81-764e-4780-ba9c-4e52198ca50b
   thumbnail: thumbnails/clawlogo.jpg
-  github: github.com/maojrs/jbook2test
+  github: https://github.com/maojrs/jbook2test
   jupyter:
     binder: true
   toc:
