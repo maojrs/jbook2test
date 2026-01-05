@@ -19,7 +19,7 @@ ENV PATH ${PATH}:/home/jovyan/.local/bin
 # Add book's files
 RUN git clone --depth=1 https://github.com/maojrs/jbook2test
 
-RUN pip install --user --no-cache-dir -r https://github.com/maojrs/jbook2test/requirements.txt
+RUN pip install --user --no-cache-dir -r https://github.com/maojrs/jbook2test/blob/main/requirements.txt
 
 # The command below starts the notebook server, but better to not
 # do this by default in case the user also wants to examine files or use
