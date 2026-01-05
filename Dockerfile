@@ -10,7 +10,7 @@ User jovyan
 WORKDIR ${HOME}
 
 
-RUN git clone https://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
+RUN git clone https://github.com/ipython-contrib/jupyter_contrib_nbextensions
 RUN pip install ipywidgets
 RUN pip install --user -e jupyter_contrib_nbextensions
 
