@@ -1,4 +1,3 @@
-# environment.yml
 channels:
   - conda-forge
   - clawpack
@@ -13,4 +12,4 @@ dependencies:
   - seaborn
   - jupyterlab
   - notebook
-  - jupyterlab-widgets
+  - jupyterlab_widgets
