@@ -21,4 +21,4 @@ RUN useradd --create-home --shell /bin/bash -u $NB_UID $NB_USER && \
 USER $NB_UID
 WORKDIR /home/$NB_USER
 EXPOSE 8888
-CMD ["start-notebook.sh"]
+
