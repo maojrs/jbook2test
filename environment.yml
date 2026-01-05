@@ -1,0 +1,16 @@
+# environment.yml
+channels:
+  - conda-forge
+  - clawpack
+dependencies:
+  - python=3.11
+  - clawpack
+  - numpy >=1.12
+  - matplotlib >=2.0.0
+  - ipywidgets >=6.0.0
+  - sympy
+  - scipy
+  - seaborn
+  - jupyterlab
+  - notebook
+  - jupyterlab-widgets
