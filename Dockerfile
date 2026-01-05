@@ -10,18 +10,14 @@ User jovyan
 WORKDIR ${HOME}
 
 
-RUN git clone https://github.com/ipython-contrib/jupyter_contrib_nbextensions
 RUN pip install ipywidgets
-RUN pip install --user -e jupyter_contrib_nbextensions
 
 ENV PATH ${PATH}:/home/jovyan/.local/bin
-RUN jupyter contrib nbextension install --user
-RUN jupyter nbextension enable widgetsnbextension --py
-RUN jupyter nbextension enable equation-numbering/main
+
 
 
 # Add book's files
-RUN git clone --depth=1 https://github.com/clawpack/riemann_book
+RUN git clone --depth=1 https://github.com/maojrs/jbook2test
 
 RUN pip install --user --no-cache-dir -r $HOME/riemann_book/requirements.txt
 
